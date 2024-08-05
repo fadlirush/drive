@@ -1,0 +1,16 @@
+<%- include('partials/h')  %> 
+<h1>fast n serious</h1>
+<form action="/log" method="post" id="login" name="login" >
+    <input type="text" name="username" placeholder="username">
+    <input type="password" name="password" placeholder="password">
+    <input type="submit" value="login">
+    
+    <input type="checkbox" name="remember" id="remember">
+    <label for="remember">remember me</label>
+    <br>
+    <a href="/forgot">forgot password</a>
+    <br>
+    <a href="/signup">signup</a>
+</form>
+</body>
+</html>
